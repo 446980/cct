@@ -44,6 +44,10 @@ app.get("/terms-and-conditions.html", function(request, response) {
   response.sendFile(__dirname + "/views/terms-and-conditions.html");
 });
 
+app.get("/log-in.html", function(request, response) {
+  response.sendFile(__dirname + "/views/log-in.html");
+});
+
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
   console.log("Your app is listening on port " + listener.address().port);
