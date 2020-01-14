@@ -1,8 +1,5 @@
-/* Body Styling */
-body {
-  font-family: "Benton Sans", "Helvetica Neue", "helvetica, arial", sans-serif;
-  margin: 0;
-  padding-top: 45px;
+html {
+font-family: "Benton Sans", "Helvetica Neue", "helvetica, arial", sans-serif;
 }
 
 /* navbar styling-----------------------------------------------------------------------------------------------------------------*/
@@ -20,6 +17,7 @@ nav ul {
 }
 nav ul:hover {
   opacity: 1;
+
 }
 
 nav li {
@@ -43,17 +41,10 @@ nav ul li a:hover {
   background-color: #5FCB14;
   opacity: 1;
   transition: 0.35s;
+  text-decoration: none;
 }
 
-/* Login paragraph Styling---------------------------------------------------------------------------------------------------------*/
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-/*Scrollbar Styling----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------Scrollbar-Styling------------------------------------------------------------------------------------*/
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -68,17 +59,6 @@ nav ul li a:hover {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #5FCB14;
-}
-
-/* Terms And Conditions Link Styling-----------------------------------------------------------------------------------------------*/
-label a {
-  text-decoration: none;
-  text-color: black;
-}
-
-/* Submit Button Link Styling------------------------------------------------------------------------------------------------------*/
-button a {
-  text-decoration: none;
 }
 
 footer ul {
@@ -103,13 +83,7 @@ footer li {
   float: right;
 }
 
-.form {
-  background-color: blue;
-  width: 360px;
-  height: 80px;
-  margin: 40px;
-}
-
-.frmipt {
-
+.bio {
+  margin-left: 20px;
+  margin-right: 20px;
 }
