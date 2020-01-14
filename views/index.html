@@ -1,18 +1,5 @@
-<!-- This is a static file -->
-<!-- served from your routes in server.js -->
-
-<!-- You might want to try something fancier: -->
-<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
-<!-- pug: https://pugjs.org/ -->
-<!-- haml: http://haml.info/ -->
-<!-- hbs(handlebars): http://handlebarsjs.com/ -->
-
 <!DOCTYPE html>
-<html
-  lang="en"
-  style="background-image: url('https://i.pinimg.com/originals/04/eb/ef/04ebeff050adeea2d51630cae0c967e9.jpg')"
-  ;
->
+<html lang="en">
   <head>
     <title>Mitchell's CCT</title>
     <link
@@ -21,49 +8,98 @@
       href="https://png.pngtree.com/svg/20170112/guitar_615896.png"
     />
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/style.css" />
   </head>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="biography.html">Biography</a></li>
-        <li><a href="bootstrap.html">Bootstrap</a></li>
-        <li><a href="about-me.html">Vidcode</a></li>
-        <li><a href="survey.html">Survey!</a></li>
-        <li class="fltlft"><a href="log-in.html">Log In</a></li>
-      </ul>
-    </nav>
-  
-  </header>
-<body>
-  <section>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2846.2657138651584!2d-80.20891068447493!3d44.48922197910155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882a7bebcb254bf3%3A0x1423ea0e81eb7f0a!2sJean%20Vanier%20Catholic%20High%20School!5e0!3m2!1sen!2sca!4v1576854027799!5m2!1sen!2sca"
-      width="600"
-      height="450"
-      frameborder="0"
-      style="border:0;"
-      allowfullscreen=""
-    ></iframe>
-    <br />
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/UB1O30fR-EE"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
-  </section>
-  </body>
-  <footer>
+
+  <nav>
     <ul>
-      <li class="fltlft">Designed by Mitchell Van Der Vechte</li>
-      <li>MitchellV2019™</li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="biography.html">Biography</a></li>
+      <li><a href="bootstrap.html">Bootstrap</a></li>
+      <li><a href="vidcode.html">Vidcode</a></li>
+      <li><a href="survey.html">Survey!</a></li>
+      <li class="fltlft"><a href="log-in.html">Log In</a></li>
+    </ul>
+  </nav>
+  <body>
+    <div class="jumbotron" style="background-color: transparent">
+      <body
+        style="background-image: url('https://i.pinimg.com/originals/04/eb/ef/04ebeff050adeea2d51630cae0c967e9.jpg')"
+        ;
+      >
+        <h1 id="welcome">
+          <center>
+            Welcome
+          </center>
+        </h1>
+      </body>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2846.2657138651584!2d-80.20891068447493!3d44.48922197910155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882a7bebcb254bf3%3A0x1423ea0e81eb7f0a!2sJean%20Vanier%20Catholic%20High%20School!5e0!3m2!1sen!2sca!4v1576854027799!5m2!1sen!2sca"
+            width="100%"
+            height="350px"
+            frameborder="0"
+            style="border:0;"
+            allowfullscreen=""
+          >
+          </iframe>
+        </div>
+        <div class="col-sm-6">
+          <iframe
+            width="100%"
+            height="350px"
+            src="https://www.youtube.com/embed/UB1O30fR-EE"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <p1
+      >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a sapien
+      ipsum. Mauris accumsan eleifend pellentesque. Sed finibus mauris vitae
+      enim maximus, a tincidunt sem auctor. Phasellus a lorem sit amet tellus
+      commodo feugiat vitae sit amet justo. Vivamus lorem arcu, faucibus congue
+      enim sit amet, dictum tempor ex. Donec cursus mollis nisl, a consectetur
+      leo. Sed non libero sed ex dictum porttitor sit amet non est. Sed
+      vestibulum maximus consequat. Fusce massa magna, imperdiet eu enim vel,
+      faucibus euismod dolor. Sed gravida placerat purus sit amet tincidunt. In
+      vitae pulvinar leo, eu pretium turpis. Morbi molestie nisl ut auctor
+      congue. Aenean auctor finibus venenatis. Quisque viverra porttitor urna,
+      eget sodales nibh congue non. Nunc a tincidunt ex, nec tempor metus.
+      Praesent id faucibus quam. Nulla fermentum metus risus, id rutrum odio
+      convallis sed. Praesent varius ipsum non pharetra sodales. Nulla nisi
+      neque, mollis feugiat quam nec, pharetra sagittis arcu. Etiam lacinia
+      condimentum lobortis. Mauris aliquam elit vitae leo aliquet sodales.
+      Integer cursus diam sit amet dui elementum, at vehicula nunc bibendum.
+      Donec non ullamcorper libero, vitae hendrerit dolor. Donec euismod sapien
+      sed felis scelerisque, luctus imperdiet nunc venenatis.</p1
+    >
+  <div>
+      <a class="weatherwidget-io" href="https://forecast7.com/en/44d50n80d22/collingwood/" data-label_1="COLLINGWOOD" data-label_2="WEATHER" data-font="Play" data-icons="Climacons Animated" data-theme="blue-mountains" >COLLINGWOOD WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+    </div>
+    <footer>
+  <ul>
+    <li>Designed by Mitchell V.</li>
+    <li class="fltlft">MV2020™</li>
     </ul>
   </footer>
+  </body>
+
   <script src="/client.js" defer></script>
 </html>
