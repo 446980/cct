@@ -20,8 +20,8 @@ app.get("/index.html", function(request, response) {
   response.sendFile(__dirname + "/views/index.html");
 });
 
-app.get("/about-me.html", function(request, response) {
-  response.sendFile(__dirname + "/views/about-me.html");
+app.get("/vidcode.html", function(request, response) {
+  response.sendFile(__dirname + "/views/vidcode.html");
 });
 
 app.get("/biography.html", function(request, response) {
