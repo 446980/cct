@@ -1,8 +1,9 @@
 html {
-font-family: "Benton Sans", "Helvetica Neue", "helvetica, arial", sans-serif;
+  font-family: "Benton Sans", "Helvetica Neue", "helvetica, arial", sans-serif;
 }
 
 /* navbar styling-----------------------------------------------------------------------------------------------------------------*/
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -14,10 +15,10 @@ nav ul {
   height: 45x;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 nav ul:hover {
   opacity: 1;
-
 }
 
 nav li {
@@ -86,4 +87,30 @@ footer li {
 .bio {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+#container {
+  posistion: relative;
+  text-align: center;
+}
+
+#gitpic {
+  height: 100%;
+  width: 100%;
+}
+
+#git a {
+  color: #FFF;
+  font-size: 20px;
+  padding-right: 39.7%;
+  padding-left: 39.7%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #171717;
+  border: none;
+}
+
+#gitlink {
+  text-decoration: none;
+  color: #FFF;
 }
