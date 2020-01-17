@@ -32,10 +32,6 @@ app.get("/biography.html", function(request, response) {
   response.sendFile(__dirname + "/views/biography.html");
 });
 
-app.get("/bootstrap.html", function(request, response) {
-  response.sendFile(__dirname + "/views/bootstrap.html");
-});
-
 app.get("/final-project.html", function(request, response) {
   response.sendFile(__dirname + "/views/final-project.html");
 });
