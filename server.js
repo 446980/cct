@@ -20,16 +20,16 @@ app.get("/index.html", function(request, response) {
   response.sendFile(__dirname + "/views/index.html");
 });
 
+app.get("/extras.html", function(request, response) {
+  response.sendFile(__dirname + "/views/extras.html");
+});
+
 app.get("/vidcode.html", function(request, response) {
   response.sendFile(__dirname + "/views/vidcode.html");
 });
 
 app.get("/biography.html", function(request, response) {
   response.sendFile(__dirname + "/views/biography.html");
-});
-
-app.get("/bootstrap.html", function(request, response) {
-  response.sendFile(__dirname + "/views/bootstrap.html");
 });
 
 app.get("/final-project.html", function(request, response) {
@@ -42,10 +42,6 @@ app.get("/survey.html", function(request, response) {
 
 app.get("/terms-and-conditions.html", function(request, response) {
   response.sendFile(__dirname + "/views/terms-and-conditions.html");
-});
-
-app.get("/log-in.html", function(request, response) {
-  response.sendFile(__dirname + "/views/log-in.html");
 });
 
 // listen for requests :)
